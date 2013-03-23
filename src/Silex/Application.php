@@ -40,22 +40,6 @@ use Silex\EventListener\StringToResponseListener;
  * The Silex framework class.
  *
  * @author Fabien Potencier <fabien@symfony.com>
- * @parameter RouteCollection $routes
- * @parameter ControllerCollection $controllers
- * @parameter ControllerCollection $controllers_factory
- * @parameter string $route_class
- * @parameter ExceptionHandler $exception_handler
- * @parameter \Silex\Route $route_factory
- * @parameter \Symfony\Component\EventDispatcher\EventDispatcher $dispatcher
- * @parameter ControllerResolver $resolver
- * @parameter HttpKernel $kernel
- * @parameter RequestContext $request_context
- * @parameter RedirectableUrlMatcher $url_matcher
- * @parameter \RuntimeException $request_error
- * @parameter \RuntimeException $request
- * @parameter boolean $debug
- * @parameter string $charset
- * @parameter string $locale
  */
 class Application extends \Pimple implements HttpKernelInterface, TerminableInterface
 {
