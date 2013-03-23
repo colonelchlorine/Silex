@@ -14,9 +14,15 @@
             "email": "igor@wiedler.ch"
         }
     ],
+    "repositories": [
+    	{
+    		"type": "vcs",
+    		"url": "https://github.com/colonelchlorine/Pimple"
+    	}
+    ],
     "require": {
         "php": ">=5.3.3",
-        "pimple/pimple": "1.*",
+        "pimple/pimple": "dev-magic",
         "symfony/event-dispatcher": ">=2.1,<2.3-dev",
         "symfony/http-foundation": ">=2.1,<2.3-dev",
         "symfony/http-kernel": ">=2.1,<2.3-dev",
